@@ -5,8 +5,8 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Fundamentals of FEA Course Notes</title>
- <link href="http://mwpriddy.github.io/notes/atom.xml" rel="self"/>
- <link href="http://mwpriddy.github.io/notes"/>
+ <link href="http://mwpriddy.github.io/FEA/notes/atom.xml" rel="self"/>
+ <link href="http://mwpriddy.github.io/FEA/notes"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://mwpriddy.github.io/notes</id>
  <author>
