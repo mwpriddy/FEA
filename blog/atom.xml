@@ -8,7 +8,7 @@ layout: feed
  <link href="http://mwpriddy.github.io/FEA/notes/atom.xml" rel="self"/>
  <link href="http://mwpriddy.github.io/FEA/notes"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mwpriddy.github.io/notes</id>
+ <id>http://mwpriddy.github.io/FEA/notes</id>
  <author>
    <name>Matthew W Priddy</name>
    <email>mwpriddy@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mwpriddy.github.io{{ post.url }}"/>
+   <link href="http://mwpriddy.github.io/FEA/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mwpriddy.github.io/{{ post.id }}</id>
+   <id>http://mwpriddy.github.io/FEA/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
