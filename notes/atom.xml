@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Fundamentals of FEA Course Notes</title>
+ <link href="http://mwpriddy.github.io/notes/atom.xml" rel="self"/>
+ <link href="http://mwpriddy.github.io/notes"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://mwpriddy.github.io/notes</id>
+ <author>
+   <name>Matthew W Priddy</name>
+   <email>mwpriddy@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://mwpriddy.github.io{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://mwpriddy.github.io/{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
