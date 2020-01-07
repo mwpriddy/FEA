@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Fundamentals of FEA Course Notes</title>
- <link href="http://mwpriddy.github.io/FEA/notes/atom.xml" rel="self"/>
- <link href="http://mwpriddy.github.io/FEA/notes"/>
+ <link href="http://mwpriddy.github.io/FEA/blog/atom.xml" rel="self"/>
+ <link href="http://mwpriddy.github.io/FEA/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mwpriddy.github.io/FEA/notes</id>
+ <id>http://mwpriddy.github.io/FEA/blog</id>
  <author>
    <name>Matthew W Priddy</name>
    <email>mwpriddy@gmail.com</email>
