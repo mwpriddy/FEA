@@ -1,6 +1,6 @@
 name: Matthew W. Priddy
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /FEA/blog/:year/:month/:day/:title
 
 baseurl: "FEA" # the subpath of your site, e.g. /blog/
 url: "https://mwpriddy.github.io/FEA/" # the base hostname & protocol for your site
